@@ -1,6 +1,5 @@
 #DNMFilter
-#Author:Yongzhuang Liu, yzhuangliu@gmail.com;  yongzhuang.liu@hit.edu.cn
-#Version 0.1.0
+#Version 0.1.1
 
 1. Installation 
 
@@ -87,3 +86,6 @@ Note the Family ID must be the same as the first column of DNM file and the Indi
 4. Others
 
 The package includes a training set built with 264 Epi4k exome trios, which users can employ it to filter new potential DNMs. In addition, the package also includes a feature configuration file.
+
+5. Contact
+yzhuangliu@gmail.com;  yongzhuang.liu@hit.edu.cn
