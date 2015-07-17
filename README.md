@@ -1,7 +1,7 @@
 #DNMFilter
 #Version 0.1.1
 
-1. Installation 
+Installation 
 
 1) Install Java JDK or JRE; 
 
@@ -11,7 +11,7 @@
 
 4) Install gbm package (http://cran.rproject.org/web/packages/gbm/index.html) in R environment.
 
-2. Running 
+Running 
 
 usage: java -jar DNMFilter.jar <COMMAND> [OPTIONS] 
 
@@ -43,7 +43,7 @@ usage: java -jar DNMFilter.jar gbm [OPTIONS]
 --cutoff		<DOUBLE> cutoff to determine a putative DNM (optional, default 0.4) 
 --output		<FILE> output file (required) 
 
-3. File Instruction
+File Instruction
 
 1) bam list file (two columns, tab-separated) 
 
@@ -83,9 +83,9 @@ See (http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml)
 
 Note the Family ID must be the same as the first column of DNM file and the Individual ID must be the same as the first column of bam list file
 
-4. Others
+Others
 
 The package includes a training set built with 264 Epi4k exome trios, which users can employ it to filter new potential DNMs. In addition, the package also includes a feature configuration file.
 
-5. Contact
+Contact
 yzhuangliu@gmail.com;  yongzhuang.liu@hit.edu.cn
